@@ -35,32 +35,44 @@ class Usuario {
     return map;
   }
 
+  // ignore: unnecessary_getters_setters
   String get id => _id;
+  // ignore: unnecessary_getters_setters
   set id(String value) {
     _id = value;
   }
 
+  // ignore: unnecessary_getters_setters
   String get nome => _nome;
+  // ignore: unnecessary_getters_setters
   set nome(String value) {
     _nome = value;
   }
 
+  // ignore: unnecessary_getters_setters
   String get email => _email;
+  // ignore: unnecessary_getters_setters
   set email(String value) {
     _email = value;
   }
 
+  // ignore: unnecessary_getters_setters
   String get senha => _senha;
+  // ignore: unnecessary_getters_setters
   set senha(String value) {
     _senha = value;
   }
 
+  // ignore: unnecessary_getters_setters
   String get tipoUsuario => _tipoUsuario;
+  // ignore: unnecessary_getters_setters
   set tipoUsuario(String value) {
     _tipoUsuario = value;
   }
 
+  // ignore: unnecessary_getters_setters
   String get urlImage => _urlImage;
+  // ignore: unnecessary_getters_setters
   set urlImage(String value) {
     _urlImage = value;
   }

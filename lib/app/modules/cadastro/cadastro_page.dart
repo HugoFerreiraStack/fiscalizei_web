@@ -1,13 +1,10 @@
 import 'dart:io';
 
+// ignore: unused_import
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:firebase_auth/firebase_auth.dart';
-import 'package:firebase_storage/firebase_storage.dart';
-import 'package:fiscalizei_web/app/shared/model/usuario.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 import 'cadastro_controller.dart';
-import 'package:firebase_storage/firebase_storage.dart' as firebase_storage;
 
 class CadastroPage extends StatefulWidget {
   final String title;
@@ -21,6 +18,7 @@ class _CadastroPageState
     extends ModularState<CadastroPage, CadastroController> {
   //use 'controller' variable to access controller
 
+  // ignore: unused_field
   File _image;
 
   final formKey = GlobalKey<FormState>();
@@ -31,7 +29,9 @@ class _CadastroPageState
   String _nome;
   String _email;
   String _senha;
+  // ignore: unused_field
   String _urlImage;
+  // ignore: unused_field
   String _tipoUsuario;
   String firebaseUserData;
 

@@ -1,3 +1,4 @@
+// ignore: implementation_imports
 import 'package:flutter/src/widgets/framework.dart';
 
 import 'problemas_notificados_controller.dart';
@@ -20,6 +21,5 @@ class ProblemasNotificadosModule extends WidgetModule {
   static Inject get to => Inject<ProblemasNotificadosModule>.of();
 
   @override
-  // TODO: implement view
   Widget get view => ProblemasNotificadosPage();
 }

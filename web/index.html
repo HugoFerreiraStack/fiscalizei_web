@@ -43,16 +43,26 @@
   <!-- The core Firebase JS SDK is always required and must be listed first -->
 
 
-<!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#available-libraries -->
-<!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="/__/firebase/8.2.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-firestore.js"></script>
 
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAiIfysEt4pvFfAWb0Z0Yxj5Pc-STPajds",
+    authDomain: "fiscalizei-01.firebaseapp.com",
+    projectId: "fiscalizei-01",
+    storageBucket: "fiscalizei-01.appspot.com",
+    messagingSenderId: "900161319985",
+    appId: "1:900161319985:web:0dbc8bc892dbba7bc75110"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
 <!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#available-libraries -->
 
 <!-- Initialize Firebase -->
-<script src="/__/firebase/init.js"></script>
 
   <script src="main.dart.js" type="application/javascript"></script>
  

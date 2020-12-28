@@ -1,3 +1,4 @@
+// ignore: implementation_imports
 import 'package:flutter/src/widgets/framework.dart';
 
 import 'feed_controller.dart';
@@ -19,6 +20,5 @@ class FeedModule extends WidgetModule {
   static Inject get to => Inject<FeedModule>.of();
 
   @override
-  // TODO: implement view
   Widget get view => FeedPage();
 }

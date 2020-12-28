@@ -1,3 +1,4 @@
+// ignore: implementation_imports
 import 'package:flutter/src/widgets/framework.dart';
 
 import 'cadastro_controller.dart';
@@ -19,6 +20,5 @@ class CadastroModule extends WidgetModule {
   static Inject get to => Inject<CadastroModule>.of();
 
   @override
-  // TODO: implement view
   Widget get view => CadastroPage();
 }
