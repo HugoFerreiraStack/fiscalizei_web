@@ -1,9 +1,9 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
-part of 'projetos_de_lei_controller.dart';
+part of 'noticias_controller.dart';
 
-final $ProjetosDeLeiController = BindInject(
-  (i) => ProjetosDeLeiController(),
+final $NoticiasController = BindInject(
+  (i) => NoticiasController(),
   singleton: true,
   lazy: true,
 );
@@ -14,8 +14,8 @@ final $ProjetosDeLeiController = BindInject(
 
 // ignore_for_file: non_constant_identifier_names, unnecessary_brace_in_string_interps, unnecessary_lambdas, prefer_expression_function_bodies, lines_longer_than_80_chars, avoid_as, avoid_annotating_with_dynamic
 
-mixin _$ProjetosDeLeiController on _ProjetosDeLeiControllerBase, Store {
-  final _$valueAtom = Atom(name: '_ProjetosDeLeiControllerBase.value');
+mixin _$NoticiasController on _NoticiasControllerBase, Store {
+  final _$valueAtom = Atom(name: '_NoticiasControllerBase.value');
 
   @override
   int get value {
@@ -30,17 +30,17 @@ mixin _$ProjetosDeLeiController on _ProjetosDeLeiControllerBase, Store {
     });
   }
 
-  final _$_ProjetosDeLeiControllerBaseActionController =
-      ActionController(name: '_ProjetosDeLeiControllerBase');
+  final _$_NoticiasControllerBaseActionController =
+      ActionController(name: '_NoticiasControllerBase');
 
   @override
   void increment() {
-    final _$actionInfo = _$_ProjetosDeLeiControllerBaseActionController
-        .startAction(name: '_ProjetosDeLeiControllerBase.increment');
+    final _$actionInfo = _$_NoticiasControllerBaseActionController.startAction(
+        name: '_NoticiasControllerBase.increment');
     try {
       return super.increment();
     } finally {
-      _$_ProjetosDeLeiControllerBaseActionController.endAction(_$actionInfo);
+      _$_NoticiasControllerBaseActionController.endAction(_$actionInfo);
     }
   }
 

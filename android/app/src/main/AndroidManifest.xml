@@ -1,5 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.fiscalizei_web">
+    package="com.example.fiscalizei_web">   
+
    <application
         android:label="fiscalizei_web"
         android:icon="@mipmap/ic_launcher">

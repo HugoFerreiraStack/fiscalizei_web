@@ -1,7 +1,7 @@
 {
     "name": "fiscalizei_web",
     "short_name": "fiscalizei_web",
-    "start_url": ".",
+    "start_url": "fiscalizei-01.web.app",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",

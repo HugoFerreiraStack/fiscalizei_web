@@ -17,7 +17,11 @@ class _FeedPageState extends ModularState<FeedPage, FeedController> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(widget.title),
+        backgroundColor: Colors.black,
+        title: Text(
+          "Feed",
+          style: TextStyle(color: Colors.white),
+        ),
       ),
       body: Column(
         children: <Widget>[],
